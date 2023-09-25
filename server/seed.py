@@ -1,6 +1,8 @@
 from random import randint
 from app import app, db
-from db.models import Hero, Power, HeroPower
+from model.hero import Hero
+from model.heroPower import HeroPower
+from model.power import Power
 from sqlalchemy.exc import IntegrityError
 
 def seed():
