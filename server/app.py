@@ -20,7 +20,7 @@ db.init_app(app)
 
 @app.route('/')
 def home():
-    return 'Heroes'
+    return 'Heroes will'
 
 @app.route('/heroes', methods=['GET'])
 def get_heroes():
